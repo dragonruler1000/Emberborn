@@ -3,15 +3,15 @@
 	"id": "emberborn",
 	"version": "${version}",
 	"name": "Emberborn",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod inspired by the mistborn saga by Brandon Sanderson, where you can use the power of metals to gain abilities.",
 	"authors": [
-		"Me!"
+		"Dragonruler1000"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://zachariahjackson.link",
+		"sources": "https://github.com/dragonruler1000/Emberborn"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/emberborn/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"us.minecraftchest2.emberborn.EmberbornDataGenerator"
+		],
+		"client": [
+			"us.minecraftchest2.emberborn.EmberbornClient"
 		]
 	},
 	"mixins": [
