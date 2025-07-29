@@ -12,6 +12,6 @@ public class Emberborn implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItems.registerModItems();
+		ModItems.intialize();
 	}
 }
