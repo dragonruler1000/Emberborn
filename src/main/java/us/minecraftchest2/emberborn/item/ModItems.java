@@ -20,6 +20,8 @@ public class ModItems {
             "brass_ingot", new Item.Settings().maxCount(64));
     public static final Item STEEL_INGOT = ItemRegisterer.register(
             "steel_ingot", new Item.Settings().maxCount(64));
+    public static final Item IRON_INGOT = ItemRegisterer.register(
+            "iron_ingot", new Item.Settings().maxCount(64));
 
     public static void intialize() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup)
@@ -36,5 +38,7 @@ public class ModItems {
                 itemGroup.add(ModItems.BRASS_INGOT));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
                 itemGroup.add(ModItems.STEEL_INGOT));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
+                itemGroup.add(ModItems.IRON_INGOT));
     }
 }

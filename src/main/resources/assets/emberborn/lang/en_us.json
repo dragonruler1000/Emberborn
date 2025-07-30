@@ -1,3 +1,10 @@
 {
-  "item.emberborn.pink_garnet": "Pink Garnet"
+  "item.emberborn.pewter_ingot": "Pewter Ingot",
+  "item.emberborn.tin_ingot": "Tin Ingot",
+  "item.emberborn.bronze_ingot": "Bronze Ingot",
+  "item.emberborn.copper_ingot": "Copper Ingot",
+  "item.emberborn.zinc_ingot": "Zinc Ingot",
+  "item.emberborn.brass_ingot": "Brass Ingot",
+  "item.emberborn.iron_ingot": "Iron Ingot",
+  "item.emberborn.steel_ingot": "Steel Ingot"
 }
