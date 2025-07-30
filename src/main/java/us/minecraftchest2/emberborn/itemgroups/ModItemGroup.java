@@ -35,6 +35,7 @@ public class ModItemGroup {
             itemGroup.add(ModBlocks.BRASS_BLOCK);
             itemGroup.add(ModBlocks.IRON_BLOCK);
             itemGroup.add(ModBlocks.STEEL_BLOCK);
+            itemGroup.add(ModItems.BRASS_VILE);
         });
     }
 }
