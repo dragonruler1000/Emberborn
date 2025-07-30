@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "emberborn:block/tin_block"
+    }
+  }
+}

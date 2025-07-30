@@ -24,21 +24,21 @@ public class ModItems {
             "iron_ingot", new Item.Settings().maxCount(64));
 
     public static void intialize() {
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup)
-                -> itemGroup.add(ModItems.PEWTER_INGOT));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup)
-                -> itemGroup.add(ModItems.TIN_INGOT));;
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
-                itemGroup.add(ModItems.BRONZE_INGOT));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
-                itemGroup.add(ModItems.COPPER_INGOT));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
-                itemGroup.add(ModItems.ZINC_INGOT));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
-                itemGroup.add(ModItems.BRASS_INGOT));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
-                itemGroup.add(ModItems.STEEL_INGOT));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
-                itemGroup.add(ModItems.IRON_INGOT));
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup)
+//                -> itemGroup.add(ModItems.PEWTER_INGOT));
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup)
+//                -> itemGroup.add(ModItems.TIN_INGOT));;
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
+//                itemGroup.add(ModItems.BRONZE_INGOT));
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
+//                itemGroup.add(ModItems.COPPER_INGOT));
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
+//                itemGroup.add(ModItems.ZINC_INGOT));
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
+//                itemGroup.add(ModItems.BRASS_INGOT));
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
+//                itemGroup.add(ModItems.STEEL_INGOT));
+//        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register((itemGroup) ->
+//                itemGroup.add(ModItems.IRON_INGOT));
     }
 }

@@ -1,0 +1,6 @@
+{
+  "model":{
+    "type": "minecraft:model",
+    "model": "emberborn:block/zinc_block"
+  }
+}

@@ -6,5 +6,14 @@
   "item.emberborn.zinc_ingot": "Zinc Ingot",
   "item.emberborn.brass_ingot": "Brass Ingot",
   "item.emberborn.iron_ingot": "Iron Ingot",
-  "item.emberborn.steel_ingot": "Steel Ingot"
+  "item.emberborn.steel_ingot": "Steel Ingot",
+  "item.emberborn.pewter_block": "Pewter Block",
+  "item.emberborn.tin_block": "Tin Block",
+  "item.emberborn.bronze_block": "Bronze Block",
+  "item.emberborn.copper_block": "Copper Block",
+  "item.emberborn.zinc_block": "Zinc Block",
+  "item.emberborn.brass_block": "Brass Block",
+  "item.emberborn.iron_block": "Iron Block",
+  "item.emberborn.steel_block": "Steel Block",
+  "itemGroup.mod-items": "Emberborn"
 }
