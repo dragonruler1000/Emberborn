@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "emberborn:item/pweter_ingot"
+    "layer0": "emberborn:item/pewter_ingot"
   }
 }
