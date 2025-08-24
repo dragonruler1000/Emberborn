@@ -19,6 +19,7 @@ public class ModItemGroup {
     public static void initialize() {
 
         ItemGroupEvents.modifyEntriesEvent(MOD_ITEM_GROUP_KEY).register(itemGroup ->{
+            //ingots
             itemGroup.add(ModItems.PEWTER_INGOT);
             itemGroup.add(ModItems.TIN_INGOT);
             itemGroup.add(ModItems.BRONZE_INGOT);
@@ -27,6 +28,7 @@ public class ModItemGroup {
             itemGroup.add(ModItems.BRASS_INGOT);
             itemGroup.add(ModItems.IRON_INGOT);
             itemGroup.add(ModItems.STEEL_INGOT);
+            //metal blocks
             itemGroup.add(ModBlocks.PEWTER_BLOCK);
             itemGroup.add(ModBlocks.TIN_BLOCK);
             itemGroup.add(ModBlocks.BRONZE_BLOCK);
@@ -35,7 +37,14 @@ public class ModItemGroup {
             itemGroup.add(ModBlocks.BRASS_BLOCK);
             itemGroup.add(ModBlocks.IRON_BLOCK);
             itemGroup.add(ModBlocks.STEEL_BLOCK);
+            //ores
+            itemGroup.add(ModBlocks.TIN_ORE);
+            itemGroup.add(ModBlocks.ZINC_ORE);
+            itemGroup.add(ModBlocks.COPPER_ORE);
+            itemGroup.add(ModBlocks.IRON_ORE);
+            //viles
             itemGroup.add(ModItems.BRASS_VILE);
+            itemGroup.add(ModItems.TIN_VILE);
         });
     }
 }

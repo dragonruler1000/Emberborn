@@ -12,6 +12,7 @@ import net.minecraft.item.consume.ApplyEffectsConsumeEffect;
 import us.minecraftchest2.emberborn.registerers.ItemRegisterer;
 
 public class ModItems {
+    //ingots
     public static final Item PEWTER_INGOT = ItemRegisterer.register(
             "pewter_ingot", new Item.Settings().maxCount(64));
     public static final Item TIN_INGOT = ItemRegisterer.register(
@@ -28,13 +29,20 @@ public class ModItems {
             "steel_ingot", new Item.Settings().maxCount(64));
     public static final Item IRON_INGOT = ItemRegisterer.register(
             "iron_ingot", new Item.Settings().maxCount(64));
+    // Viles
     public static final Item BRASS_VILE = ItemRegisterer.register(
             "brass_vile", new Item.Settings().maxCount(64).food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.5f).alwaysEdible().build(),
                     ConsumableComponent.builder().consumeEffect(new ApplyEffectsConsumeEffect
-                            (new StatusEffectInstance(StatusEffects.STRENGTH, 6 * 20, 1), 1.0f)
+                            (new StatusEffectInstance(StatusEffects.STRENGTH, 20 * 20, 1), 1.0f)
                             ).consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance
                             (StatusEffects.RESISTANCE, 6 * 20, 1), 1.0f)).build()));
+    public static final Item TIN_VILE = ItemRegisterer.register(
+            "tin_vile", new Item.Settings().maxCount(64).food(new FoodComponent.Builder()
+                    .nutrition(2).saturationModifier(0.5f).alwaysEdible().build(),
+                    ConsumableComponent.builder().consumeEffect(new ApplyEffectsConsumeEffect
+                            (new StatusEffectInstance(StatusEffects.NIGHT_VISION, 20 * 20, 1), 1.0f)
+                            ).build()));
 
     public static void intialize() {
 

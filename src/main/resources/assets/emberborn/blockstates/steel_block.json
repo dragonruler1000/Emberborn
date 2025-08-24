@@ -2,5 +2,6 @@
   "variants": {
     "": {
       "model": "emberborn:block/steel_block"
+    }
   }
 }

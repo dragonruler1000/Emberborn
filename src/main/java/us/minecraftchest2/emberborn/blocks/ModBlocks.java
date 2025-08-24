@@ -38,6 +38,19 @@ public class ModBlocks {
             "zinc_block", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.METAL).strength(0.9f)
                     .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.OFF_WHITE));
 
+    public static final Block ZINC_ORE = BlockRegisterer.register(
+            "zinc_ore", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(3.0f)
+                    .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.STONE_GRAY));
+    public static final Block TIN_ORE = BlockRegisterer.register(
+            "tin_ore", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(3.0f)
+                    .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.STONE_GRAY));
+    public static final Block COPPER_ORE = BlockRegisterer.register(
+            "copper_ore", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(3.0f)
+                    .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.STONE_GRAY));
+    public static final Block IRON_ORE = BlockRegisterer.register(
+            "iron_ore", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(3.0f)
+                    .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.STONE_GRAY));
+
 
     public static void initialize() {
     }
