@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "emberborn:zinc_block"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emberborn:zinc_ingot"
+  }
+}

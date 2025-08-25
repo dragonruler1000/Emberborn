@@ -113,6 +113,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input(Items.COAL)
                         .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
                         .offerTo(exporter, "steel_from_iron_and_coal");
+                createShapeless(RecipeCategory.MISC, ModItems.BRASS_INGOT)
+                        .input(ModBlocks.BRASS_BLOCK)
+                        .criterion("has_item", conditionsFromItem(ModBlocks.BRASS_BLOCK))
+                        .offerTo(exporter, "brass_ingot_from_block");
+                createShapeless(RecipeCategory.MISC, ModItems.TIN_INGOT)
+                        .input(ModBlocks.TIN_BLOCK)
+                        .criterion("has_item", conditionsFromItem(ModBlocks.TIN_BLOCK))
+                        .offerTo(exporter, "tin_ingot_from_block");
+                createShapeless(RecipeCategory.MISC, ModItems.BRONZE_INGOT)
+                        .input(ModBlocks.BRONZE_BLOCK)
+                        .criterion("has_item", conditionsFromItem(ModBlocks.BRONZE_BLOCK))
+                        .offerTo(exporter, "bronze_ingot_from_block");
+                createShapeless(RecipeCategory.MISC, ModItems.PEWTER_INGOT)
+                        .input(ModBlocks.PEWTER_BLOCK)
+                        .criterion("has_item", conditionsFromItem(ModBlocks.PEWTER_BLOCK))
+                        .offerTo(exporter, "pewter_ingot_from_block");
+                createShapeless(RecipeCategory.MISC, ModItems.STEEL_INGOT)
+                        .input(ModBlocks.STEEL_BLOCK)
+                        .criterion("has_item", conditionsFromItem(ModBlocks.STEEL_BLOCK))
+                        .offerTo(exporter, "steel_ingot_from_block");
+                createShapeless(RecipeCategory.MISC, ModItems.ZINC_INGOT)
+                        .input(ModBlocks.ZINC_BLOCK)
+                        .criterion("has_item", conditionsFromItem(ModBlocks.ZINC_BLOCK))
+                        .offerTo(exporter, "zinc_ingot_from_block");
             }
         };
     }

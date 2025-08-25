@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "emberborn:pewter_block"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emberborn:pewter_ingot"
+  }
+}

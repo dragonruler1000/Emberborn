@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "emberborn:tin_block"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emberborn:tin_ingot"
+  }
+}
