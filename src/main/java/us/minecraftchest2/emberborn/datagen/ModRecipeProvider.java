@@ -26,7 +26,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
             @Override
             public void generate() {
                 RegistryWrapper.Impl<Item> itemLookup = registries.getOrThrow(RegistryKeys.ITEM);
-                offerSmelting(
+                this.offerSmelting(
                         List.of(ModBlocks.TIN_ORE),
                         RecipeCategory.MISC,
                         ModItems.TIN_INGOT,
@@ -34,7 +34,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         300,
                         "ore_to_ingot/tin"
                 );
-                offerSmelting(
+                this.offerSmelting(
                         List.of(ModBlocks.IRON_ORE),
                         RecipeCategory.MISC,
                         ModItems.IRON_INGOT,
@@ -42,7 +42,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         300,
                         "ore_to_ingot/iron"
                 );
-                offerSmelting(
+                this.offerSmelting(
                         List.of(ModBlocks.COPPER_ORE),
                         RecipeCategory.MISC,
                         ModItems.COPPER_INGOT,
@@ -50,7 +50,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         300,
                         "ore_to_ingot/copper"
                 );
-                offerSmelting(
+                this.offerSmelting(
                         List.of(ModBlocks.ZINC_ORE),
                         RecipeCategory.MISC,
                         ModItems.ZINC_INGOT,
