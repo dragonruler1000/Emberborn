@@ -42,7 +42,7 @@ This mod is licensed under the MIT License. See [LICENSE](./LICENSE) for details
 
 You can find the latest download and updates on:
 
-- [Modrinth](https://modrinth.com/mod/metalborn) *(coming soon)*
+- [Modrinth](https://modrinth.com/mod/emberborn)
 
 ---
 
