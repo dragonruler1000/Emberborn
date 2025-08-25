@@ -19,16 +19,12 @@ public class ModItems {
             "tin_ingot", new Item.Settings().maxCount(64));
     public static final Item BRONZE_INGOT = ItemRegisterer.register(
             "bronze_ingot", new Item.Settings().maxCount(64));
-    public static final Item COPPER_INGOT = ItemRegisterer.register(
-            "copper_ingot", new Item.Settings().maxCount(64));
     public static final Item ZINC_INGOT = ItemRegisterer.register(
             "zinc_ingot", new Item.Settings().maxCount(64));
     public static final Item BRASS_INGOT = ItemRegisterer.register(
             "brass_ingot", new Item.Settings().maxCount(64));
     public static final Item STEEL_INGOT = ItemRegisterer.register(
             "steel_ingot", new Item.Settings().maxCount(64));
-    public static final Item IRON_INGOT = ItemRegisterer.register(
-            "iron_ingot", new Item.Settings().maxCount(64));
     // Vials
     public static final Item BRASS_VIAL = ItemRegisterer.register(
             "brass_vial", new Item.Settings().maxCount(64).food(new FoodComponent.Builder()

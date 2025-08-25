@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_copper_ore": {
+    "has_item": {
       "conditions": {
         "items": [
           {
-            "items": "emberborn:copper_ore"
+            "items": "minecraft:copper_ingot"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "emberborn:copper_ingot_from_smelting_copper_ore"
+        "recipe": "emberborn:bronze_from_copper_and_tin"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_copper_ore"
+      "has_item"
     ]
   ],
   "rewards": {
     "recipes": [
-      "emberborn:copper_ingot_from_smelting_copper_ore"
+      "emberborn:bronze_from_copper_and_tin"
     ]
   }
 }

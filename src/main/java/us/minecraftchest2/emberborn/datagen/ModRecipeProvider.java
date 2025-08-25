@@ -36,22 +36,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         "ore_to_ingot/tin"
                 );
                 this.offerSmelting(
-                        List.of(ModBlocks.IRON_ORE),
-                        RecipeCategory.MISC,
-                        ModItems.IRON_INGOT,
-                        0.1f,
-                        300,
-                        "ore_to_ingot/iron"
-                );
-                this.offerSmelting(
-                        List.of(ModBlocks.COPPER_ORE),
-                        RecipeCategory.MISC,
-                        ModItems.COPPER_INGOT,
-                        0.1f,
-                        300,
-                        "ore_to_ingot/copper"
-                );
-                this.offerSmelting(
                         List.of(ModBlocks.ZINC_ORE),
                         RecipeCategory.MISC,
                         ModItems.ZINC_INGOT,
@@ -95,20 +79,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('b', ModItems.PEWTER_INGOT)
                         .criterion(hasItem(ModItems.PEWTER_INGOT), conditionsFromItem(ModItems.PEWTER_INGOT))
                         .offerTo(exporter);
-                createShaped(RecipeCategory.MISC, ModBlocks.COPPER_BLOCK)
-                        .pattern("bbb")
-                        .pattern("bbb")
-                        .pattern("bbb")
-                        .input('b', ModItems.COPPER_INGOT)
-                        .criterion(hasItem(ModItems.COPPER_INGOT), conditionsFromItem(ModItems.COPPER_INGOT))
-                        .offerTo(exporter);
-                createShaped(RecipeCategory.MISC, ModBlocks.IRON_BLOCK)
-                        .pattern("bbb")
-                        .pattern("bbb")
-                        .pattern("bbb")
-                        .input('b', ModItems.IRON_INGOT)
-                        .criterion(hasItem(ModItems.IRON_INGOT), conditionsFromItem(ModItems.IRON_INGOT))
-                        .offerTo(exporter);
                 createShaped(RecipeCategory.MISC, ModBlocks.STEEL_BLOCK)
                         .pattern("bbb")
                         .pattern("bbb")
@@ -123,6 +93,26 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('b', ModItems.ZINC_INGOT)
                         .criterion(hasItem(ModItems.ZINC_INGOT), conditionsFromItem(ModItems.ZINC_INGOT))
                         .offerTo(exporter);
+                createShapeless(RecipeCategory.MISC, ModItems.BRONZE_INGOT, 2)
+                        .input(Items.COPPER_INGOT)
+                        .input(ModItems.TIN_INGOT)
+                        .criterion("has_item", conditionsFromItem(Items.COPPER_INGOT))
+                        .offerTo(exporter, "bronze_from_copper_and_tin");
+                createShapeless(RecipeCategory.MISC, ModItems.PEWTER_INGOT, 2)
+                        .input(ModItems.TIN_INGOT)
+                        .input(Items.COPPER_INGOT)
+                        .criterion("has_item", conditionsFromItem(ModItems.TIN_INGOT))
+                        .offerTo(exporter, "pewter_from_tin_and_copper");
+                createShapeless(RecipeCategory.MISC, ModItems.BRASS_INGOT, 2)
+                        .input(Items.COPPER_INGOT)
+                        .input(ModItems.ZINC_INGOT)
+                        .criterion("has_item", conditionsFromItem(Items.COPPER_INGOT))
+                        .offerTo(exporter, "brass_from_copper_and_zinc");
+                createShapeless(RecipeCategory.MISC, ModItems.STEEL_INGOT)
+                        .input(Items.IRON_INGOT)
+                        .input(Items.COAL)
+                        .criterion("has_item", conditionsFromItem(Items.IRON_INGOT))
+                        .offerTo(exporter, "steel_from_iron_and_coal");
             }
         };
     }

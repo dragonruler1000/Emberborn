@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_copper_ingot": {
+    "has_item": {
       "conditions": {
         "items": [
           {
-            "items": "emberborn:copper_ingot"
+            "items": "emberborn:tin_ingot"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "emberborn:copper_block"
+        "recipe": "emberborn:pewter_from_tin_and_copper"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_copper_ingot"
+      "has_item"
     ]
   ],
   "rewards": {
     "recipes": [
-      "emberborn:copper_block"
+      "emberborn:pewter_from_tin_and_copper"
     ]
   }
 }

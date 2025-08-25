@@ -22,12 +22,6 @@ public class ModBlocks {
     public static final Block BRONZE_BLOCK = BlockRegisterer.register(
             "bronze_block", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.METAL).strength(0.9f)
                     .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.BROWN));
-    public static final Block COPPER_BLOCK = BlockRegisterer.register(
-            "copper_block", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.METAL).strength(0.9f)
-                    .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.ORANGE));
-    public static final Block IRON_BLOCK = BlockRegisterer.register(
-            "iron_block", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.METAL).strength(0.9f)
-                    .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.IRON_GRAY));
     public static final Block STEEL_BLOCK = BlockRegisterer.register(
             "steel_block", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.METAL).strength(0.9f)
                     .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.GRAY));
@@ -43,12 +37,6 @@ public class ModBlocks {
                     .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.STONE_GRAY));
     public static final Block TIN_ORE = BlockRegisterer.register(
             "tin_ore", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(3.0f)
-                    .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.STONE_GRAY));
-    public static final Block COPPER_ORE = BlockRegisterer.register(
-            "copper_ore", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(3.0f)
-                    .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.STONE_GRAY));
-    public static final Block IRON_ORE = BlockRegisterer.register(
-            "iron_ore", Block::new, AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE).strength(3.0f)
                     .pistonBehavior(PistonBehavior.NORMAL).mapColor(MapColor.STONE_GRAY));
 
 
