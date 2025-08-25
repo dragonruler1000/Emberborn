@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "emberborn:brass_ingot",
+    "minecraft:potion"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emberborn:brass_vial"
+  }
+}

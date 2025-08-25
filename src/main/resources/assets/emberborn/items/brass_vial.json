@@ -1,6 +1,6 @@
 {
   "model":{
     "type": "minecraft:model",
-    "model": "emberborn:block/brass_vile"
+    "model": "emberborn:item/brass_vial"
   }
 }

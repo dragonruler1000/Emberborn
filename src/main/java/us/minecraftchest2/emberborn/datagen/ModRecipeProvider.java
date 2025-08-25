@@ -6,6 +6,7 @@ import java.util.concurrent.CompletableFuture;
 import net.minecraft.data.recipe.RecipeExporter;
 import net.minecraft.data.recipe.RecipeGenerator;
 import net.minecraft.item.Item;
+import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.RegistryWrapper;
@@ -58,6 +59,10 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         300,
                         "ore_to_ingot/zinc"
                 );
+                createShapeless(RecipeCategory.MISC, ModItems.BRASS_VIAL)
+                        .input(ModItems.BRASS_INGOT).input(Items.POTION)
+                        .criterion("has_item", conditionsFromItem(ModItems.BRASS_INGOT))
+                        .offerTo(exporter);
             }
         };
     }

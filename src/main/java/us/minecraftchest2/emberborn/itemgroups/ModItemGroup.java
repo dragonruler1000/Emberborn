@@ -42,9 +42,9 @@ public class ModItemGroup {
             itemGroup.add(ModBlocks.ZINC_ORE);
             itemGroup.add(ModBlocks.COPPER_ORE);
             itemGroup.add(ModBlocks.IRON_ORE);
-            //viles
-            itemGroup.add(ModItems.BRASS_VILE);
-            itemGroup.add(ModItems.TIN_VILE);
+            //vials
+            itemGroup.add(ModItems.BRASS_VIAL);
+            itemGroup.add(ModItems.TIN_VIAL);
         });
     }
 }
