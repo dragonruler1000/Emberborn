@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "b": "emberborn:iron_ingot"
+  },
+  "pattern": [
+    "bbb",
+    "bbb",
+    "bbb"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emberborn:iron_block"
+  }
+}

@@ -74,6 +74,55 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input('b', ModItems.BRASS_INGOT)
                         .criterion(hasItem(ModItems.BRASS_INGOT), conditionsFromItem(ModItems.BRASS_INGOT))
                         .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModBlocks.TIN_BLOCK)
+                        .pattern("ttt")
+                        .pattern("ttt")
+                        .pattern("ttt")
+                        .input('t', ModItems.TIN_INGOT)
+                        .criterion(hasItem(ModItems.TIN_INGOT), conditionsFromItem(ModItems.TIN_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModBlocks.BRONZE_BLOCK)
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .input('b', ModItems.BRONZE_INGOT)
+                        .criterion(hasItem(ModItems.BRONZE_INGOT), conditionsFromItem(ModItems.BRONZE_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModBlocks.PEWTER_BLOCK)
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .input('b', ModItems.PEWTER_INGOT)
+                        .criterion(hasItem(ModItems.PEWTER_INGOT), conditionsFromItem(ModItems.PEWTER_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModBlocks.COPPER_BLOCK)
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .input('b', ModItems.COPPER_INGOT)
+                        .criterion(hasItem(ModItems.COPPER_INGOT), conditionsFromItem(ModItems.COPPER_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModBlocks.IRON_BLOCK)
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .input('b', ModItems.IRON_INGOT)
+                        .criterion(hasItem(ModItems.IRON_INGOT), conditionsFromItem(ModItems.IRON_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModBlocks.STEEL_BLOCK)
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .input('b', ModItems.STEEL_INGOT)
+                        .criterion(hasItem(ModItems.STEEL_INGOT), conditionsFromItem(ModItems.STEEL_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModBlocks.ZINC_BLOCK)
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .input('b', ModItems.ZINC_INGOT)
+                        .criterion(hasItem(ModItems.ZINC_INGOT), conditionsFromItem(ModItems.ZINC_INGOT))
+                        .offerTo(exporter);
             }
         };
     }

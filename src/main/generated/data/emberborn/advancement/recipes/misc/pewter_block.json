@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pewter_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emberborn:pewter_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "emberborn:pewter_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_pewter_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "emberborn:pewter_block"
+    ]
+  }
+}

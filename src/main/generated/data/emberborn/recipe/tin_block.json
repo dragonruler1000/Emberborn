@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "t": "emberborn:tin_ingot"
+  },
+  "pattern": [
+    "ttt",
+    "ttt",
+    "ttt"
+  ],
+  "result": {
+    "count": 1,
+    "id": "emberborn:tin_block"
+  }
+}
