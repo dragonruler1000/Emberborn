@@ -15,5 +15,11 @@
   "item.emberborn.brass_block": "Brass Block",
   "item.emberborn.iron_block": "Iron Block",
   "item.emberborn.steel_block": "Steel Block",
-  "itemGroup.mod-items": "Emberborn"
+  "itemGroup.mod-items": "Emberborn",
+  "item.emberborn.copper_ore": "Copper Ore",
+  "item.emberborn.iron_ore": "Iron Ore",
+  "item.emberborn.tin_ore": "Tin Ore",
+  "item.emberborn.zinc_ore": "Zinc Ore",
+  "item.emberborn.brass_vile": "Brass Vile",
+  "item.emberborn.tin_vile": "Tin Vile"
 }

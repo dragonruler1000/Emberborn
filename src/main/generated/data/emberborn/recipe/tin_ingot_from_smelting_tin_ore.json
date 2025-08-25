@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.1,
+  "group": "ore_to_ingot/tin",
+  "ingredient": "emberborn:tin_ore",
+  "result": {
+    "id": "emberborn:tin_ingot"
+  }
+}

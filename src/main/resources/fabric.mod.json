@@ -19,7 +19,7 @@
 			"us.minecraftchest2.emberborn.Emberborn"
 		],
 		"fabric-datagen": [
-			"us.minecraftchest2.emberborn.EmberbornDataGenerator"
+			"us.minecraftchest2.emberborn.datagen.EmberbornDataGenerator"
 		],
 		"client": [
 			"us.minecraftchest2.emberborn.EmberbornClient"
