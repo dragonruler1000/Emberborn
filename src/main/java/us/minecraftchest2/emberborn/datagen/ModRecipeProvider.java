@@ -63,6 +63,17 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .input(ModItems.BRASS_INGOT).input(Items.POTION)
                         .criterion("has_item", conditionsFromItem(ModItems.BRASS_INGOT))
                         .offerTo(exporter);
+                createShapeless(RecipeCategory.MISC, ModItems.TIN_VIAL)
+                        .input(ModItems.TIN_INGOT).input(Items.POTION)
+                        .criterion("has_item", conditionsFromItem(ModItems.TIN_INGOT))
+                        .offerTo(exporter);
+                createShaped(RecipeCategory.MISC, ModBlocks.BRASS_BLOCK)
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .pattern("bbb")
+                        .input('b', ModItems.BRASS_INGOT)
+                        .criterion(hasItem(ModItems.BRASS_INGOT), conditionsFromItem(ModItems.BRASS_INGOT))
+                        .offerTo(exporter);
             }
         };
     }
