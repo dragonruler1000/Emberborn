@@ -15,6 +15,7 @@ import org.slf4j.LoggerFactory;
 import us.minecraftchest2.emberborn.blocks.ModBlocks;
 import us.minecraftchest2.emberborn.item.ModItems;
 import us.minecraftchest2.emberborn.itemgroups.ModItemGroup;
+import us.minecraftchest2.emberborn.misc.ModAttachmentTypes;
 
 public class Emberborn implements ModInitializer {
 	public static final String MOD_ID = "emberborn";
@@ -27,6 +28,8 @@ public class Emberborn implements ModInitializer {
 		ModItems.intialize();
 		ModBlocks.initialize();
 		ModItemGroup.initialize();
+        ModAttachmentTypes.init();
+
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, TIN_ORE_PLACED_KEY);
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(), GenerationStep.Feature.UNDERGROUND_ORES, ZINC_ORE_PLACED_KEY);
 	}
