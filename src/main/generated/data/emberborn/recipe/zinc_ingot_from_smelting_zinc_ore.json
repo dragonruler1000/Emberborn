@@ -2,7 +2,7 @@
   "type": "minecraft:smelting",
   "category": "misc",
   "cookingtime": 300,
-  "experience": 0.1,
+  "experience": 1.0,
   "group": "ore_to_ingot/zinc",
   "ingredient": "emberborn:zinc_ore",
   "result": {

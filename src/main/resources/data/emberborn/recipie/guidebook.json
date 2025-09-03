@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "minecraft:book"},
+    {"item": "minecraft:feather"}
+  ],
+  "result": {
+    "id": "minecraft:written_book",
+    "components": {
+      "minecraft:written_book_content": {
+        "title": "Your Mod Guide",
+        "author": "YourName",
+        "pages": [
+          {"text": "Welcome to the mod!"},
+          {"text": "Crafting tips and mechanics overview."},
+          {"text": "For full details, check the GitHub wiki."}
+        ]
+      }
+    }
+  }
+}

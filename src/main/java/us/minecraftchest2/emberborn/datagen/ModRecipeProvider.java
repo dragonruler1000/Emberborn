@@ -31,7 +31,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         List.of(ModBlocks.TIN_ORE),
                         RecipeCategory.MISC,
                         ModItems.TIN_INGOT,
-                        0.1f,
+                        1f,
                         300,
                         "ore_to_ingot/tin"
                 );
@@ -39,7 +39,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         List.of(ModBlocks.ZINC_ORE),
                         RecipeCategory.MISC,
                         ModItems.ZINC_INGOT,
-                        0.1f,
+                        1f,
                         300,
                         "ore_to_ingot/zinc"
                 );
