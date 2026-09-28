@@ -43,9 +43,9 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         300,
                         "ore_to_ingot/zinc"
                 );
-                createShapeless(RecipeCategory.MISC, ModItems.BRASS_VIAL)
-                        .input(ModItems.BRASS_INGOT).input(Items.POTION)
-                        .criterion("has_item", conditionsFromItem(ModItems.BRASS_INGOT))
+                createShapeless(RecipeCategory.MISC, ModItems.PEWTER_VIAL)
+                        .input(ModItems.PEWTER_INGOT).input(Items.POTION)
+                        .criterion("has_item", conditionsFromItem(ModItems.PEWTER_INGOT))
                         .offerTo(exporter);
                 createShapeless(RecipeCategory.MISC, ModItems.TIN_VIAL)
                         .input(ModItems.TIN_INGOT).input(Items.POTION)

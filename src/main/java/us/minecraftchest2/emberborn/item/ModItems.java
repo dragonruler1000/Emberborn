@@ -26,13 +26,13 @@ public class ModItems {
     public static final Item STEEL_INGOT = ItemRegisterer.register(
             "steel_ingot", new Item.Settings().maxCount(64));
     // Vials
-    public static final Item BRASS_VIAL = ItemRegisterer.register(
+    public static final Item PEWTER_VIAL = ItemRegisterer.register(
             "brass_vial", new Item.Settings().maxCount(64).food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.5f).alwaysEdible().build(),
                     ConsumableComponent.builder().consumeEffect(new ApplyEffectsConsumeEffect
                             (new StatusEffectInstance(StatusEffects.STRENGTH, 20 * 20, 1), 1.0f)
                             ).consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance
-                            (StatusEffects.RESISTANCE, 6 * 20, 1), 1.0f)).build()));
+                            (StatusEffects.RESISTANCE, 20 * 20, 1), 1.0f)).build()));
     public static final Item TIN_VIAL = ItemRegisterer.register(
             "tin_vial", new Item.Settings().maxCount(64).food(new FoodComponent.Builder()
                     .nutrition(2).saturationModifier(0.5f).alwaysEdible().build(),

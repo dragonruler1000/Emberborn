@@ -8,7 +8,7 @@
 		"Dragonruler1000"
 	],
 	"contact": {
-		"homepage": "https://zachariahjackson.link",
+		"homepage": "https://github.com/dragonruler1000",
 		"sources": "https://github.com/dragonruler1000/Emberborn"
 	},
 	"license": "MIT",
@@ -36,5 +36,11 @@
 	},
 	"suggests": {
 		"another-mod": "*"
+	},
+	"custom": {
+		"cardinal-components": [
+			"emberborn:brass",
+			"emberborn:tin"
+		]
 	}
 }
