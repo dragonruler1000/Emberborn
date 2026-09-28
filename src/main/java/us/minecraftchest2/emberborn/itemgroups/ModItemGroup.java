@@ -45,7 +45,7 @@ public class ModItemGroup {
             itemGroup.add(Blocks.COPPER_ORE);
             itemGroup.add(Blocks.IRON_ORE);
             //vials
-            itemGroup.add(ModItems.BRASS_VIAL);
+            itemGroup.add(ModItems.PEWTER_VIAL);
             itemGroup.add(ModItems.TIN_VIAL);
         });
     }
